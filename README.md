@@ -47,13 +47,14 @@ Then configure the rules you want to use under the rules section.
 
   ```js
   .then(() => {
-    // forget to return a value
+    // not allowed (forget to return a value)
   })
   .then((result)) => {
   })
   ```
 
+* no-jsx-spread-attribute - Forbid spread attribute in jsx element for better static anslysis.
 
-
-
-
+  ```js
+  <MyComponent {...this.props}/> // not allowed (using spread attribute)
+  ```
