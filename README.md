@@ -58,3 +58,9 @@ Then configure the rules you want to use under the rules section.
   ```js
   <MyComponent {...this.props}/> // not allowed (using spread attribute)
   ```
+
+* lingui-mark - Non-i18n string detector
+
+  ```js
+  const message = '你好世界' // Non-i18n string is detected
+  ```
