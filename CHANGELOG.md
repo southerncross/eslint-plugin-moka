@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.3
+
+- Fix package-lock.json error
+
 ## 0.0.2
 
 - Add rule "lingui-mark"
