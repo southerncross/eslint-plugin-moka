@@ -14,6 +14,7 @@ RuleTester.setDefaultConfig({
     ecmaFeatures: {
       jsx: true,
     },
+    sourceType: 'module',
   },
 });
 
@@ -46,6 +47,27 @@ ruleTester.run('lingui-mark', rule, {
     {
       code: '<div className="table"></div>',
     },
+    {
+      code: "import React from 'react'",
+    },
+    {
+      code: 'const a = true',
+    },
+    {
+      code: "db('').select('*').from('applications').where('archived', true);",
+    },
+    {
+      code: '<div tooltip={i18n.t`你好`}></div>',
+    },
+    {
+      code: "log.info('你好')",
+    },
+    {
+      code: "log.error(new Error('你好'), { value: 1 })",
+    },
+    {
+      code: "log.info(`你好`)",
+    },
   ],
 
   invalid: [
@@ -69,6 +91,18 @@ ruleTester.run('lingui-mark', rule, {
     },
     {
       code: '<div>你好</div>',
+      errors: [{
+        message: ERR_MSG,
+      }],
+    },
+    {
+      code: '<div tooltip="你好"></div>',
+      errors: [{
+        message: ERR_MSG,
+      }],
+    },
+    {
+      code: "httpErrors.BadRequestError('你好')",
       errors: [{
         message: ERR_MSG,
       }],
