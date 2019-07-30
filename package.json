@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-moka",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Eslint Plugin of Moka",
   "keywords": [
     "eslint",
