@@ -68,6 +68,9 @@ ruleTester.run('lingui-mark', rule, {
     {
       code: "log.info(`你好`)",
     },
+    {
+      code: "if (status === '你好') { success = true; }",
+    },
   ],
 
   invalid: [
@@ -97,6 +100,12 @@ ruleTester.run('lingui-mark', rule, {
     },
     {
       code: '<div tooltip="你好"></div>',
+      errors: [{
+        message: ERR_MSG,
+      }],
+    },
+    {
+      code: '<Modal title="你好"></Modal>',
       errors: [{
         message: ERR_MSG,
       }],
