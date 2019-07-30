@@ -102,6 +102,12 @@ ruleTester.run('lingui-mark', rule, {
       }],
     },
     {
+      code: '<Modal title="你好"></Modal>',
+      errors: [{
+        message: ERR_MSG,
+      }],
+    },
+    {
       code: "httpErrors.BadRequestError('你好')",
       errors: [{
         message: ERR_MSG,
