@@ -64,3 +64,9 @@ Then configure the rules you want to use under the rules section.
   ```js
   const message = '你好世界' // Non-i18n string is detected
   ```
+
+* no-global-assign - Forbid assigning variable to window/global.
+
+  ```js
+  window.userId = 123; // You may not want to assign variable to window/global
+  ```

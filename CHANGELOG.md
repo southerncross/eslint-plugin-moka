@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.5
+
+- Add rule "no-global-assign"([#4](https://github.com/southerncross/eslint-plugin-moka/pull/4))
+
 ## 0.0.4
 
 - Optimize rule "lingui-mark"
