@@ -71,6 +71,9 @@ ruleTester.run('lingui-mark', rule, {
     {
       code: "if (status === '你好') { success = true; }",
     },
+    {
+      code: "if (status !== '你好') { success = true; }",
+    },
   ],
 
   invalid: [
