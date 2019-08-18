@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.6
+
+- Fix a bug that "lingui-mark" can not resolve not-equal operator correctly.([#5](https://github.com/southerncross/eslint-plugin-moka/pull/5))
+
 ## 0.0.5
 
 - Add rule "no-global-assign"([#4](https://github.com/southerncross/eslint-plugin-moka/pull/4))
