@@ -114,6 +114,12 @@ ruleTester.run('lingui-mark', rule, {
       }],
     },
     {
+      code: '<input placeholder="你好"></input>',
+      errors: [{
+        message: ERR_MSG,
+      }],
+    },
+    {
       code: "httpErrors.BadRequestError('你好')",
       errors: [{
         message: ERR_MSG,
