@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.7
+
+- Optimize rule "lingui-mark", support jsx properties "placeholder".([#6](https://github.com/southerncross/eslint-plugin-moka/pull/6))
+
 ## 0.0.6
 
 - Fix a bug that "lingui-mark" can not resolve not-equal operator correctly.([#5](https://github.com/southerncross/eslint-plugin-moka/pull/5))
