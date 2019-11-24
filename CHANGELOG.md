@@ -2,6 +2,11 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.8
+
+- Optimize rule "lingui-mark", refactor jsx property validation.([#8](https://github.com/southerncross/eslint-plugin-moka/pull/8))
+- Bump lodash from 4.17.11 to 4.17.15([#7](https://github.com/southerncross/eslint-plugin-moka/pull/7))
+
 ## 0.0.7
 
 - Optimize rule "lingui-mark", support jsx properties "placeholder".([#6](https://github.com/southerncross/eslint-plugin-moka/pull/6))
