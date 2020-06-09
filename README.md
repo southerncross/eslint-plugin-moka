@@ -12,22 +12,22 @@ $ npm i eslint --save-dev
 
 > ESlint verion should be >= 5
 
-Next, install `eslint-plugin-moka`:
+Next, install `@mokahr/eslint-plugin`:
 
 ```
-$ npm install eslint-plugin-moka --save-dev
+$ npm install @mokahr/eslint-plugin --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-moka` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@mokahr/eslint-plugin` globally.
 
 ## Usage
 
-Add `moka` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@mokahr` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "moka"
+        "@mokahr"
     ]
 }
 ```
@@ -38,7 +38,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "moka/rule-name": 2
+        "@mokahr/rule-name": 2
     }
 }
 ```
