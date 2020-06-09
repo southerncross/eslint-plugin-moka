@@ -10,6 +10,8 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
+> ESlint verion should be >= 5
+
 Next, install `eslint-plugin-moka`:
 
 ```
