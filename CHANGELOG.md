@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.10
+
+- Change package name from @mokahr/eslint-plugin-moka to @mokahr/eslint-plugin.([#13](https://github.com/southerncross/eslint-plugin-moka/pull/13))
+
 ## 0.0.9
 
 - Fix bug of rule "lingui-mark", i18nMark literal.([#12](https://github.com/southerncross/eslint-plugin-moka/pull/12))
