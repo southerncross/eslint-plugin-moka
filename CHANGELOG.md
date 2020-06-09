@@ -2,6 +2,10 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.0.9
+
+- Fix bug of rule "lingui-mark", i18nMark literal.([#12](https://github.com/southerncross/eslint-plugin-moka/pull/12))
+
 ## 0.0.8
 
 - Optimize rule "lingui-mark", refactor jsx property validation.([#8](https://github.com/southerncross/eslint-plugin-moka/pull/8))
