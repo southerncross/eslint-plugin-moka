@@ -2,6 +2,15 @@ Changelog
 =========
 Notable changes to Moka-Eslint-Plugin will be documented in this file.
 
+## 0.1.0
+
+- Upgrade dependencies of eslint and mocha([#14](https://github.com/southerncross/eslint-plugin-moka/pull/14))
+- Update README([#15](https://github.com/southerncross/eslint-plugin-moka/pull/15))
+
+**Breacking changes!**
+
+ESlint < 5 is no longer supported.
+
 ## 0.0.10
 
 - Change package name from @mokahr/eslint-plugin-moka to @mokahr/eslint-plugin.([#13](https://github.com/southerncross/eslint-plugin-moka/pull/13))
