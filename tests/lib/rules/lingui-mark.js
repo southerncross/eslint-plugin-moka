@@ -39,6 +39,9 @@ ruleTester.run('lingui-mark', rule, {
       code: "i18nMark('你好')",
     },
     {
+      code: "i18nMark(`${name}，你好`)",
+    },
+    {
       code: "i18n.plural({ value: count, other: '等#人' })",
     },
     {
